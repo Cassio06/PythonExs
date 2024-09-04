@@ -1,0 +1,7 @@
+nome = str(input('Digite lo nome: ')).strip()
+nome_maisculo = nome.upper()
+nome_min = nome.lower()
+nome_prim = nome.find(' ')
+print(f'Nome todo Maisculo é {nome_maisculo}')
+print(f'Nome todo minusculo é {nome_min}')
+print(f'Primeiro nome {nome_prim}')

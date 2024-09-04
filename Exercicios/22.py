@@ -1,0 +1,7 @@
+num = int(input('Digite um numero de 0 a 9999: '))
+n = str(num)
+un = format(n[3])
+dz = format(n[2])
+cn = format(n[1])
+mi = format(n[0])
+print(f'Essa é unidade: {un} \nEssa é a dezena: {dz} \nEssa é a centena: {cn} \nEssa é a milhar: {mi}')
